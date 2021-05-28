@@ -1,31 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body{
     font-family: 'Oxygen', sans-serif;
 }
 
+h1{
+    text-align: center;
+}
+
+#pelayanan,
+#bantuan,
+footer h1{
+    color: white;
+}
+
 nav{
+    background-color: blueviolet;
     padding: 5px;
     position: sticky;
     top: 0;
-    font-style: unset;
+}
+
+nav img{
+    max-height: 64px;
+    padding: 0;
 }
 
 nav li {
     display: inline;
-    list-style: none;
-    text-align: left;
-    color: black;
-}
+    list-style-type: none;
+    margin-right: 20px;
+} 
 
-nav a {
+nav a, nav .dropdown {
     float: right;
     font-size: 18px;
     font-weight: 400;
-    color: blueviolet;
-    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
 }
 
-nav a:hover{
+nav a:hover, .dropdown:hover .dropbtn {
     font-weight: bold;
+}
+
+
+#pelayanan,
+#bantuan,
+footer{
+    background-color: blueviolet;
+}
+
+footer {
+    color: white;
+}
+
+.dropbtn {
+    cursor: pointer;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: blueviolet;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
 }
