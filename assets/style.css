@@ -50,17 +50,6 @@ nav a:hover, .dropdown:hover .dropbtn {
     font-weight: bold;
 }
 
-
-#pelayanan,
-#bantuan,
-footer{
-    background-color: blueviolet;
-}
-
-footer {
-    color: white;
-}
-
 .dropbtn {
     cursor: pointer;
   }
@@ -87,4 +76,33 @@ footer {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.flex-container-row {
+    display: flex;
+    padding: 45px;
+    height: max-content;
+    width: max-content;
+}
+
+.slogan h1{
+    text-align: left !important;
+    font-size: 45px;
+}
+
+.slogan-ilustration{
+    padding: 45px;
+    align-items: center;
+    justify-content: center;
+    border: black;
+}
+
+#pelayanan,
+#bantuan,
+footer{
+    background-color: blueviolet;
+}
+
+footer {
+    color: white;
 }
