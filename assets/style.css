@@ -78,8 +78,9 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
-.flex-container-row {
+.flex-container-row-slogan {
     display: flex;
+    flex-basis: 50%;
     padding: 45px;
     height: max-content;
     width: max-content;
@@ -91,12 +92,31 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .slogan-ilustration{
-    padding: 45px;
     align-items: center;
     justify-content: center;
-    border: black;
 }
 
+.flex-container-row-layanan{
+    display: flex;
+    justify-content: center;
+}
+
+.layanan{
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.layanan img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
 #pelayanan,
 #bantuan,
 footer{
