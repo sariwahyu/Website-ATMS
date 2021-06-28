@@ -22,15 +22,10 @@ footer h1{
 }
 
 nav{
-    background-color: blueviolet;
+    background-color: #3b2261;
     padding: 5px;
     position: sticky;
     top: 0;
-}
-
-nav img{
-    max-height: 64px;
-    padding: 0;
 }
 
 nav li {
@@ -38,6 +33,10 @@ nav li {
     list-style-type: none;
     margin-right: 20px;
 } 
+
+nav li img{
+    max-height: 32px;
+}
 
 nav a, nav .dropdown {
     float: right;
@@ -69,7 +68,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     z-index: 1;
 }
 .dropdown-content a {
-    color: blueviolet;
+    color: #3b2261;
     text-decoration: none;
     display: block;
 }
@@ -101,7 +100,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 .flex-container-row-layanan{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 5%;
 }
 
 .layanan{
@@ -130,13 +129,19 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .berita img{
-    width: 50%;
+    width: 20%;
     border-radius: 5px 0 0 5px;
 }
 
 .isi-berita{
     text-align: left;
     padding: 15px;
+}
+
+#isi-bantuan {
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px;
 }
 
 input[type=text], select {
@@ -151,8 +156,8 @@ input[type=text], select {
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: #3b2261;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -161,28 +166,38 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: blue;
+    color: white;
   }
-  
-  #isi-bantuan {
+
+.profilecard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     margin: 20px;
-  }
+}
 
 figure img{
     width: 200px;
     height: auto;
 }
 
+#social-media a img{
+    height: 16px;
+    width: auto;
+    margin-right: 20px;
+}
+
 #pelayanan,
 #bantuan,
 footer{
-    background-color: blueviolet;
+    background-color: #3b2261;
 }
 
 footer {
     color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 @media all and (max-width: 400px) {  

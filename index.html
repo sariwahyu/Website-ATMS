@@ -7,7 +7,7 @@
 <body>
     <nav>
         <ul>
-            <li><img src="assets/Logo 72x72/Artboard 11.png"> </li>
+            <li><img src="assets/image/LOGO.png"> </li>
             <li>
                 <div class="dropdown">
                     <div class="dropbtn">Bahasa</div>
@@ -22,6 +22,7 @@
             <li><a href="#pelayanan">Pelayanan</a></li>
         </ul>
     </nav>
+
     <main>
         <div class="flex-container-row-slogan">
             <div class="slogan">
@@ -33,29 +34,31 @@
                 <img src="assets/image/angkutan umum.jpg" class="slogan-ilustration">
             </div>
         </div>
+
         <div id="pelayanan">
             <h1>Pelayanan</h1>
             <div class="flex-container-row-layanan">
-                <div class="layanan"><img src="assets/image/supermarket.jpg"> 
+                <div class="layanan"><a href="#"><img src="assets/image/supermarket.jpg">
                     <div class="description">
                         <h2>Supermarket</h2>
                         <p>Membantu anda menemukan toko terdekat.</p>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="layanan"><img src="assets/image/angkutan umum.jpg">
+                <div class="layanan"><a href="#"><img src="assets/image/angkutan umum.jpg">
                     <div class="description">
                         <h2>Angkutan Umum</h2>
                         <p>Membantu anda menemukan angkutan umum terdekat.</p>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="layanan"><img src="assets/image/wisata.jpg">
+                <div class="layanan"><a href="#"><img src="assets/image/wisata.jpg">
                     <div class="description">
                         <h2>Wisata</h2>
                         <p>Membantu anda menemukan tempat wisata terdekat.</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
         </div>
+
         <div id="blog">
             <h1>Blog</h1>
             <div class="berita">
@@ -75,53 +78,64 @@
                 </div>
             </div>
         </div>
+
         <div id="bantuan">
             <h1>Bantuan</h1>
             <div id="isi-bantuan">
                 <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> 
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="Nama" placeholder="Your name...">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..."> 
+                    <label for="krisar">Kritik dan Saran</label>
+                    <input type="text" id="krisar" name="krisar" placeholder="Kritik dan saran anda...."> 
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
         
         <aside>
-            <article class="profile card">
+            <article class="profilecard">
                 <header>
-                    <h2>Profile</h2>
+                    <h1>Profile</h1>
                     <figure>
                         <img src="assets/image/sari.jpg">
                     </figure>
-                    <section>
-                        <table>
-                            <tr>
-                                <th>Nama</th>
-                                <td>Sari Wahyuningsih</td>
-                            </tr>
-                            <tr>
-                                <th>TTL</th>
-                                <td>Karanganyar, 22 Desember 1997</td>
-                            </tr>
-                            <tr>
-                                <th>Alamat</th>
-                                <td>Keputih 2B No.31</td>
-                            </tr>
-                            <tr>
-                                <th>Email</th>
-                                <td>sariwahyuningsih22@gmail.com</td>
-                            </tr>
-                        </table>
-                    </section>
                 </header>
+                <section>
+                    <table>
+                         <tr>
+                            <th>Nama</th>
+                            <td>Sari Wahyuningsih</td>
+                        </tr>
+                        <tr>
+                            <th>TTL</th>
+                            <td>Karanganyar, 22 Desember 1997</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Keputih 2B No.31</td>
+                        </tr>
+                        <tr>
+                             <th>Email</th>
+                             <td>sariwahyuningsih22@gmail.com</td>
+                          </tr>
+                    </table>
+                </section>
             </article>
         </aside>
-        <footer>
-            <div id="social media"></div>
-            <p>Belajar Dasar Pemrograman Web &#169; 2021, Sari Wahyuningsih</p>
-        </footer>
     </main>
+
+    <footer>
+        <div id="social-media">
+            <a href="#"><img src="assets/image/fb.png"></a>
+            <a href="#"><img src="assets/image/ig.png"></a>
+            <a href="#"><img src="assets/image/twt.png"></a>
+            <a href="#"><img src="assets/image/yt.png"></a>
+            <a href="#"><img src="assets/image/wa.png"></a>
+        </div>
+        <p>Belajar Dasar Pemrograman Web &#169; 2021, Sari Wahyuningsih</p>
+    </footer>
+
 </body>
 </html>
